@@ -10,7 +10,7 @@
 
 while [ True ]; do
 	DIR="/home/USER/Pictures/Wallpapers"
-	PIC=$(ls $DIR/*.jpg | shuf -n1)
+	PIC=$(ls $DIR/* | shuf -n1)
 	gsettings set org.gnome.desktop.background picture-uri $PIC
 	sleep $[($RANDOM % 300)+1]
 done
