@@ -1,3 +1,7 @@
 #!/bin/bash
-image=$(curl $1 | grep 'og:image' | sed 's/<meta property="og:image" content="//g'| sed 's/" \/>//g')
-wget -P /home/$USER/Downloads/ $image
+for var in "$@"
+do
+	image=$(curl $var | grep 'og:image' | sed 's/<meta property="og:image" content="//g'| sed 's/" \/>//g')
+	wget -P /home/mohamedation/Downloads/ $image
+done
+
