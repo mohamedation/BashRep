@@ -1,4 +1,12 @@
 #!/bin/sh
+
+#- Monitors a Directory for files written (ftp video uploads from my dvr)
+#- publishes to mqtt that there is a movement
+#- extracts screenshots from the video
+#- creates a gif from the screenshots
+#- sends an email with the gif
+#- compresses the video, screenshots, and the gif with timestamp
+
 MONITORDIR="/dir/to/monitor/ftp/files/"
 inotifywait -m -r -e close_write --format '%w%f' "${MONITORDIR}" | while read NEWFILE
 do
