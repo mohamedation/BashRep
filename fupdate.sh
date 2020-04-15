@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Fedora Update Script
+
 clear
 echo "                          "
 echo " _____       _     _       "
