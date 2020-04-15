@@ -1,2 +1,2 @@
-# BashRep
-some of my bash scripts
+# Scripts
+Some of My Scripts
