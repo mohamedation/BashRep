@@ -5,6 +5,9 @@ Some of My Scripts
 # fupdate.sh
 - Fedora Update Script
 
+# GFicon.py
+- Gnome Folder icon: changes folders icons to a png placed inside them
+
 # iget.sh
 - uses curl and wget to download instagram image from link
 
