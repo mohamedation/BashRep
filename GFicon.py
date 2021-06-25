@@ -4,10 +4,10 @@ import os
 #   By: mohamedation
 #       mohamedation.com
 #   License: GPL-3.0-or-later
-# GFicon: Gnome Folder icon is a python script that looks for
-#         folders in the current working directory, and set their
-#         icons using a png image if it is inside the respective folder
-#         and named ".folder.png"       
+#   GFicon: Gnome Folder icon is a python script that looks for
+#           folders in the current working directory, and set their
+#           icons using a png image if it is inside the respective folder
+#           and named ".folder.png"       
 
 dr = os.getcwd()
 
